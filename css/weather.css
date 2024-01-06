@@ -1,0 +1,99 @@
+/* Your existing CSS code */
+
+body {
+    background-image: url('./weather.webp');
+}
+
+.container {
+    width: 600px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: rgb(14, 82, 137) ;
+    border-radius: 3px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.6);
+}
+
+.inputs {
+    padding: 2rem 0;
+    text-align: center;
+    justify-content: center;
+    background: rgb(234, 84, 109);
+    height: 100px;
+}
+
+.inputs select,
+.inputs input[type="submit"] {
+    height: 3rem;
+    width: 18rem;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.inputs select {
+    background: rgb(14, 82, 137);
+    color: white;
+}
+
+.inputs input[type="submit"] {
+    background: rgb(14, 82, 137);
+    border-radius: 4px;
+    color: white;
+}
+
+.inputs select:hover,
+.inputs input[type="submit"]:hover,
+.inputs select:focus,
+.inputs input[type="submit"]:focus {
+    background: rgb(31, 106, 167) ;
+}
+
+.display {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.wrapper {
+    margin: 20px 0;
+}
+
+.wrapper h2 {
+    padding: 10px 0;
+    text-align: center;
+    background: blue;
+    color: white;
+    border-radius: 4px;
+}
+
+.wrapper p {
+    margin: 20px;
+    text-align: left;
+    color: rgb(18, 18, 99);
+    font-size: 18px;
+}
+
+.wrapper h2 span {
+    font-size: 24px;
+    color: rgb(95, 209, 209);
+}
+
+.wrapper p span {
+    color: blueviolet;
+    font-size: 20px;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background: transparent;
+    padding: 1px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.);
+    color: white;
+}
